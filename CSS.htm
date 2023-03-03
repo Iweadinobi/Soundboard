@@ -3,7 +3,7 @@
 <head>
 <style>
     body {
-        color:blue;
+        color:#F5DA4C;
         text-align: right;
     background-color: brown;
     }
@@ -11,19 +11,42 @@
         text-align: center;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
+    a:link {
+        color:#F5DA4C;
+        background-color:orangered;
+        text-decoration:navajowhite;
+        display: inline-block;
+        text-align: center;
+        padding: 15px 25px;
+    }
+    a:visited {
+        color:aqua;
+        background-color: turquoise;
+        text-decoration: none;
+    }
 </style>
+<!--I noticed that the email link writes in blue and is underlined. I thought it was a mistake on my part but it seems to be generic. I hope to understand and experiment on this later.-->
 <!--I will be using internal styling as you can see here. I used inline styling for the previous document-->
+<!--Never write a comment in a style tag, it will cause confusion.-->
 <title>CSS Onboarding</title>
 </head>
 <body>
-
-
-
-
-
-
-
-
+    <p>Trying out the image link thing.</p>
+    <p><a href="#Email">Skip to email.</a></p>
+<a title="Varieties of spaghetti" href="https://www.google.com/search?q=spaghetti&sxsrf=AJOqlzVGfcoOelHgTxgexgTe6e3ljvxhng:1677803566358&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiqjc2swb79AhVrh_0HHc49CrAQ_AUoAXoECAEQAw&biw=1366&bih=625&dpr=1" target="_self">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvp59dnjEsOGRxfNaXtEi2_LqQfyZMiSxuGw&usqp=CAU" alt="a pot of spaghetti" width="150" height="150">
+</a> <br>
+<a href="mailto:neurosurg19@gmail.com" id="Email">Email me</a> <br>
+<a href="mailto:wickidadaeze@gmail.com">
+<img src="data:image/jpeg;base64,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" alt="A stack of envelopes">
+</a>
+<p>Using the button as a link now with a bit of JS.</p>
+<button onclick="document.location='https://www.google.com/search?q=spaghetti&sxsrf=AJOqlzVGfcoOelHgTxgexgTe6e3ljvxhng:1677803566358&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiqjc2swb79AhVrh_0HHc49CrAQ_AUoAXoECAEQAw&biw=1366&bih=625&dpr=1'" width="50px" height="20px" target="_blank">Burron</button>
+<!--document.location seems to be JS version of href. Let me try the target attribute with it. I does not work, it keeps opening in the default tab.-->
+<!--Remember to embed plain links so you can see the effects of your internal styling.-->
+<!--Styling a button as a link is entirely different from styling a link as a button, the syntax is quite deceptive. I have just styled a link as a button, and I noticed that if you have links in form of images, it would be appropriate to use either white or transparent as the background color; as any color outside this would be noticeable and make the image look weird.-->
+<!--Careful when using internal styling, it somehow limits your sponataneity. I make reference to using the "id" attribute for the first time and it coming out like a button simmply bacause of the internal styling. At this point, I prefer inline styling.-->
+<!--Anything entered into the "href" attribute automatically becomes a link, whether or not, it is functional-->
 
 
 
