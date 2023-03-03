@@ -3,9 +3,10 @@
 <head>
 <style>
     body {
+        background-image: url('C:\Users\Adaeze\Desktop\img_foodie.jpg');
+        background-size: cover;
         color:#F5DA4C;
         text-align: right;
-    background-color: brown;
     }
     h1 {
         text-align: center;
@@ -25,9 +26,6 @@
         text-decoration: none;
     }
 </style>
-<!--I noticed that the email link writes in blue and is underlined. I thought it was a mistake on my part but it seems to be generic. I hope to understand and experiment on this later.-->
-<!--I will be using internal styling as you can see here. I used inline styling for the previous document-->
-<!--Never write a comment in a style tag, it will cause confusion.-->
 <title>CSS Onboarding</title>
 </head>
 <body>
@@ -42,11 +40,17 @@
 </a>
 <p>Using the button as a link now with a bit of JS.</p>
 <button onclick="document.location='https://www.google.com/search?q=spaghetti&sxsrf=AJOqlzVGfcoOelHgTxgexgTe6e3ljvxhng:1677803566358&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiqjc2swb79AhVrh_0HHc49CrAQ_AUoAXoECAEQAw&biw=1366&bih=625&dpr=1'" width="50px" height="20px" target="_blank">Burron</button>
-<!--document.location seems to be JS version of href. Let me try the target attribute with it. I does not work, it keeps opening in the default tab.-->
-<!--Remember to embed plain links so you can see the effects of your internal styling.-->
-<!--Styling a button as a link is entirely different from styling a link as a button, the syntax is quite deceptive. I have just styled a link as a button, and I noticed that if you have links in form of images, it would be appropriate to use either white or transparent as the background color; as any color outside this would be noticeable and make the image look weird.-->
-<!--Careful when using internal styling, it somehow limits your sponataneity. I make reference to using the "id" attribute for the first time and it coming out like a button simmply bacause of the internal styling. At this point, I prefer inline styling.-->
-<!--Anything entered into the "href" attribute automatically becomes a link, whether or not, it is functional-->
+<br>
+<p><img src="https://media.tenor.com/VYhc5LiK6lUAAAAC/food-eating.gif" alt="Spaghetti" style="float:left;width:48px;height:48px;">Trying out floats</p>
+<img src="Dinner.jpg" alt="Dinnerset" usemap="#dinnersetmap">
+<br>
+<map name="dinnermap">
+  <area shape="circle" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="circle" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+
+
 
 
 
