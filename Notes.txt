@@ -30,13 +30,19 @@ I am presently unable to practise the "map"concept due to lack of full understan
 I am presently struggling to work the background-image angle. No matter what I do it still does not reflect on the browser. I have tried with both inline and internal styling.
 Difficult areas : IMAGEMAP - BACKGROUND IMAGE - PICTURE - FAVICON.
 
+PROJECT 3;
+Today on tables, I realise that without the border property, the contents stay arranged but with no central container; say like a square or rectangle. I wonder why and if it is so.
 
+NOTE: TRY VIEWING YOUR PROJECTS ON ALL AVAILABLE BROWSERS AND DEVICES, MAKE OBSERVATIONS AND NOTE THEM DOWN.
 
-
-
-
-
-
+For the "border" property to be active in a page, you use internal styling, inline styling will not cut it.
+Contrary to my previous observation {i.e the line before this}; the issue was that I used semi-colons in seperating the values hence the unresponsiveness. Also, to get the container for tables, you do the inline styling just for the table tag and it pops up. I will inline style for the "tr - td- th" and see how it goes.Though external styling is usually only done for "table - th - td". 
+There is always a difference when you use "px" or "%" for your values, with the latter being more.
+Omo! Styles do not work on the "tr" o. LOL...I don't know why I find it funny sha. I better understand why internal styling is the best for tables, because who gwt strength to dey replicate styles for each "th - td". "Height - :nth-child(even/odd)" property works for "tr" sha, with "px" sef not "%".
+You can use both inline and internal styling together. 
+The commas "'" used in seperating varying tags with same properties and values in the internal style tag, is VERY IMPORTANT.
+Worthy of note, the "Width" property works with the inline styling of table, without the "Style" property. To add anything else you have to use the "Style" property
+I notice in W3SCHOOLS example, when the ":nth-child(even>)" is used, it does not affect the heading, but in mine, it does. I wonder why. Turns out that I was the one who made the mistake. I used "th - td" in the internal styling instead of just "td".
 
 
 
