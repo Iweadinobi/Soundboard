@@ -43,13 +43,20 @@ You can use both inline and internal styling together.
 The commas "'" used in seperating varying tags with same properties and values in the internal style tag, is VERY IMPORTANT.
 Worthy of note, the "Width" property works with the inline styling of table, without the "Style" property. To add anything else you have to use the "Style" property
 I notice in W3SCHOOLS example, when the ":nth-child(even>)" is used, it does not affect the heading, but in mine, it does. I wonder why. Turns out that I was the one who made the mistake. I used "th - td" in the internal styling instead of just "td".
+When you center the lists in table-styling, they become vertically arranged.
 
+PROJECT 4;
+BLOCK & INLINE ELEMENTS
+"DIV" is a container, you can use it to style sections of your code in place of inline styling or internal styling. Really interesting. Whereas, "SPAN" is used to style inline.
+The "CLASS" element is amazing, it is the equivalence of a style sheet in a html document placed in the head section. All you have to do is refer to it in the "DIV" containers; this goes for the "SPAN" too.
+Difference between "CLASS" and "ID" elements is whereas, the former is for everyone, the latter is unique to one.
 
+IFRAME;
+These are like webpages inside webpages, like the way ads are projected on websites.
 
-
-
-
-
+PROJECT 4;
+HTML JAVASCRIPT
+So, I tried the content change part but mine is not working. Let me try to figure it out.
 
 
 
