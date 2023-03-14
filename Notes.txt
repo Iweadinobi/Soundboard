@@ -57,6 +57,27 @@ These are like webpages inside webpages, like the way ads are projected on websi
 PROJECT 4;
 HTML JAVASCRIPT
 So, I tried the content change part but mine is not working. Let me try to figure it out.
+I still have not figured out what the problem with my "JS" is, infact, I have three scripts on one web page for different functions but all the buttons now seem to be working for only the latest script, all three of them.
+
+        background-image: url(https://hips.hearstapps.com/hmg-prod/images/close-up-of-tulips-blooming-in-field-royalty-free-image-1584131603.jpg);
+
+My Very First Twitter Inspired Webpage Clone
+I expect to use and fully understand the use and functions of the following, after this clone practise;
+"SPAN - DIV - COLOR -LIST- INTERNAL STYLING".
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
