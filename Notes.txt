@@ -63,8 +63,8 @@ I still have not figured out what the problem with my "JS" is, infact, I have th
 
 My Very First Twitter Inspired Webpage Clone
 I expect to use and fully understand the use and functions of the following, after this clone practise;
-"SPAN - DIV - COLOR -LIST- INTERNAL STYLING".
-
+"SPAN - DIV - COLOR -Horizontal LIST with CSS- INTERNAL STYLING -ID - BR - ".
+I have done the very basics, latr on is for alignment and proper appropriation of properties.
 
 
 
