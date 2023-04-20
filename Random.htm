@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+    <title>HTML Elements </title>
+<style>
+    body {
+        background-image: url("./Assets/img_foodie.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+</style>
+</head>
+<body>
+    <p>Block and inline <span>elements</span></p>
+<div style="color:pink; font-family:Lucida Sans; font-size: medium;">
+    <h2>Experimenting</h2>
+    <p>Trying out my understanding.</p>
+    </div>
+    <p id="jS"></p>
+    <button type="button" onclick="myFunction()">Touch me!</button>
+    <p id="jS">A demo</p>
+    <h1>JAVASCRIPT</h1>
+    <p>Practising content change</p>
+    <button type="button" onclick="myButton()">Try me!</button>
+    <p id="trial">Javascript should rock!</p>
+    <h1>My First JavaScript</h1>
+    <p>JavaScript can change the content of an HTML element:</p>
+    <button type="button" onclick="myFunction()">Click Me!</button>
+    <p id="demo">This is a demonstration.</p>
+    <noscript>Sorry, this image is not supported by your browser.</noscript>
+    <script>
+    function myButton() {
+        document.getElementById("trial").innerHTML= "My Fist Javascript";
+    }
+    </script>
+    <script>
+        function mybutton() {
+            document.getElementById("jS").innerHTML = "Hello Javascript!";
+        }
+        </script>
+<script>
+    function myFunction() { 
+        document.getElementById("demo").innerHTML = "Hello JavaScript!";
+    }
+</script>
+<script>
+    document.getElementById("jS").innerHTML = "How far JS!";
+</script>
+</body>
+</html>

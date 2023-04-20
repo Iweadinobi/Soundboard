@@ -1,0 +1,93 @@
+NOTES ON HTML W3SCHOOLS COURSE AND THE PROJECTS ALONGSIDE.
+PROJECT 1 ;
+I dont understand why I can't use more than one property in my tags. especially h1.
+Finally figured it out. You use only one set of quotes for the whole style property, using the semi-colons to seperate each property/value.
+<!-- I see that inline styling makes my lines too long, for the next web page I should use internal styling and see how it makes my code looks.-->
+<!-- You notice that for the image tag, I did not use the semi-colon(;) to seperate the properties yet it still worked.-->
+<!--I tried using the propery/value thing without the style right after the tooltip, but it did not work. This proves that the "style element is very important and ca not be replaced"-->
+<!--I tried styling the horizontal line by giving it the color property but it did not work, wonder why-->
+<!--I can see that the "address - bdo and blockquotes like to stand alone aoutside paragraphs. I will try them within paragraphs later on though."-->
+<!--NOTE: RGB/RGBA = (0 - 255)/(0.0 - 1.0); BLACK(0,0,0)/(255,255,255)WHITE. HEX = #RRGGBB (00 - ff); (#000000)/(#ffffff). HSL/HSLA = HUE - SATURATION - LIGHTNESS; H = (0 - 360)_(R-0, G-120, B-240);
+S = (0% {SHADE OF GRAY} - 100% {FULL COLOR}); L = (0% {BLACK} - 100% {WHITE}).git 
+-->
+
+PROJECT 2;
+<!--I noticed that the email link writes in blue and is underlined. I thought it was a mistake on my part but it seems to be generic. I hope to understand and experiment on this later.-->
+<!--I will be using internal styling as you can see here. I used inline styling for the previous document-->
+<!--Never write a comment in a style tag, it will cause confusion.-->
+!--document.location seems to be JS version of href. Let me try the target attribute with it. I does not work, it keeps opening in the default tab.-->
+<!--Remember to embed plain links so you can see the effects of your internal styling.-->
+<!--Styling a button as a link is entirely different from styling a link as a button, the syntax is quite deceptive. I have just styled a link as a button, and I noticed that if you have links in form of images, it would be appropriate to use either white or transparent as the background color; as any color outside this would be noticeable and make the image look weird.-->
+<!--Careful when using internal styling, it somehow limits your sponataneity. I make reference to using the "id" attribute for the first time and it coming out like a button simmply bacause of the internal styling. At this point, I prefer inline styling.-->
+<!--Anything entered into the "href" attribute automatically becomes a link, whether or not, it is functional. Note though taht a bookmark link always begins with "#" symbol.-->
+APNG - Animated Portable Network Graphics	.apng
+GIF	- Graphics Interchange Format	.gif
+ICO	- Microsoft Icon	.ico, .cur
+JPEG - Joint Photographic Expert Group image	.jpg, .jpeg, .jfif, .pjpeg, .pjp
+PNG	- Portable Network Graphics	.png
+SVG	- Scalable Vector Graphics	.svg
+I am presently unable to practise the "map"concept due to lack of full understanding.
+I am presently struggling to work the background-image angle. No matter what I do it still does not reflect on the browser. I have tried with both inline and internal styling.
+Difficult areas : IMAGEMAP - BACKGROUND IMAGE - PICTURE - FAVICON.
+
+PROJECT 3;
+Today on tables, I realise that without the border property, the contents stay arranged but with no central container; say like a square or rectangle. I wonder why and if it is so.
+
+NOTE: TRY VIEWING YOUR PROJECTS ON ALL AVAILABLE BROWSERS AND DEVICES, MAKE OBSERVATIONS AND NOTE THEM DOWN.
+
+For the "border" property to be active in a page, you use internal styling, inline styling will not cut it.
+Contrary to my previous observation {i.e the line before this}; the issue was that I used semi-colons in seperating the values hence the unresponsiveness. Also, to get the container for tables, you do the inline styling just for the table tag and it pops up. I will inline style for the "tr - td- th" and see how it goes.Though external styling is usually only done for "table - th - td". 
+There is always a difference when you use "px" or "%" for your values, with the latter being more.
+Omo! Styles do not work on the "tr" o. LOL...I don't know why I find it funny sha. I better understand why internal styling is the best for tables, because who gwt strength to dey replicate styles for each "th - td". "Height - :nth-child(even/odd)" property works for "tr" sha, with "px" sef not "%".
+You can use both inline and internal styling together. 
+The commas "'" used in seperating varying tags with same properties and values in the internal style tag, is VERY IMPORTANT.
+Worthy of note, the "Width" property works with the inline styling of table, without the "Style" property. To add anything else you have to use the "Style" property
+I notice in W3SCHOOLS example, when the ":nth-child(even>)" is used, it does not affect the heading, but in mine, it does. I wonder why. Turns out that I was the one who made the mistake. I used "th - td" in the internal styling instead of just "td".
+When you center the lists in table-styling, they become vertically arranged.
+
+PROJECT 4;
+BLOCK & INLINE ELEMENTS
+"DIV" is a container, you can use it to style sections of your code in place of inline styling or internal styling. Really interesting. Whereas, "SPAN" is used to style inline.
+The "CLASS" element is amazing, it is the equivalence of a style sheet in a html document placed in the head section. All you have to do is refer to it in the "DIV" containers; this goes for the "SPAN" too.
+Difference between "CLASS" and "ID" elements is whereas, the former is for everyone, the latter is unique to one.
+
+IFRAME;
+These are like webpages inside webpages, like the way ads are projected on websites.
+
+PROJECT 4;
+HTML JAVASCRIPT
+So, I tried the content change part but mine is not working. Let me try to figure it out.
+I still have not figured out what the problem with my "JS" is, infact, I have three scripts on one web page for different functions but all the buttons now seem to be working for only the latest script, all three of them.
+
+        background-image: url(https://hips.hearstapps.com/hmg-prod/images/close-up-of-tulips-blooming-in-field-royalty-free-image-1584131603.jpg);
+
+My Very First Twitter Inspired Webpage Clone
+I expect to use and fully understand the use and functions of the following, after this clone practise;
+"SPAN - DIV - COLOR -LIST- INTERNAL STYLING".
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
