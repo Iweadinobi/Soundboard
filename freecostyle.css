@@ -11,7 +11,7 @@ font-family:cursive;
 #name {    font-family:sans serif;
 }
 #email {
-
+    border: 1px solid red;
 }
 #number {
 min-width:50%;
@@ -23,6 +23,12 @@ text-align:left;
 #email-label {
 text-align:left;
 }
-#number-label {}
-#dropdown {}
-#submit {}
+#number-label {
+    border: 1px solid red;
+}
+#dropdown {
+    border: 1px solid red;
+}
+#submit {
+    border: 1px solid red;
+}
