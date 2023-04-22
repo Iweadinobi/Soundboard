@@ -1,0 +1,28 @@
+#title {
+    text-align:center;
+    color:dodgerblue;
+}
+#description {
+font-family:cursive;
+}
+#survey-form {
+    text-align:center;
+}
+#name {    font-family:sans serif;
+}
+#email {
+
+}
+#number {
+min-width:50%;
+max-width:100%;
+}
+#name-label {
+text-align:left;
+}
+#email-label {
+text-align:left;
+}
+#number-label {}
+#dropdown {}
+#submit {}

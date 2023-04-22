@@ -8,35 +8,75 @@
 <meta author="Adaeze Iweadinobi">
 <style>
 	body {
-         background-color:dodgerblue;
+         background-color:rgba(30, 144, 255, 0.1);
          color:orange;
          font-style:
 } 
 h1, h2 {
-         color:white;
+         color:brown;
          text-align:center;
 } 
+section, button {
+    border:2px solid olive;
+    padding: 5px 5px 5px 5px;
+    margin:auto;
+}
+table, th, td {
+    border:1px solid black;
+    border-collapse:collapse;
+    padding: auto;
+    margin: auto;
+}
 </style>
 </head>
 <body>
-<h1>Inbound Form</h1>
-<form action="" method="post" target="_blank" >
+    <h1>Inbound Form</h1>
+
+<header>
+    <h1> Covid-19 Test Client Information Form</h1>
+    <table width="50%">
+        <caption>Sample Collection</caption>
+        <tr>
+            <th>Date</th>
+            <th>Time</th>
+        </tr>
+        <tr height="30px">
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</header>
+
+    <form action="https://dnalabs.com.ng/" method="post" target="_blank" >
 	<section>
-		<h2>Personal Information</h2>
+		<h2 style="text-align: left;">Personal Information</h2>
 <label for="fullname">Full Name:<label>
-	<input type="text" id="fullname" name="fname" value="surname  firstname  other names" required> <br><br>
-    <label for="age">Date of Birth</label>
+	<input type="text" id="fullname" name="fname" placeholder="surname  firstname  other names" required> <br><br>
+
+    <label for="age">Date of Birth:</label>
     <input type="date" id="age" name="dob" value="" required><br><br>
-    <label for="nationale">Nationality</label>
-    <input type="text" id="nationale" name="nation" value="country" required><br><br>
-    <label for="pnumber">Phone Number</label>
-    <input type="number" id="number" name="number" value="0..." max="15" required><br><br>
-    <textarea id="address" placeholder="Home address" rows="3" cols="15" min="50" max="250" required></textarea><br><br>
-    <input type="number" id="pasnumber" name="passport" value="0123456789"><br><br>
+
+    <label for="nationale">Nationality:</label>
+    <input type="text" id="nationale" name="nation" placeholder="country" required><br><br>
+
+    <label for="pnumber">Phone Number:</label>
+    <input type="number" id="number" name="number" placeholder="0..." required><br><br>
+
+    <label for="passport">Passport Number:</label>
+    <input type="number" id="pasnumber" name="passport" placeholder="0123456789"><br><br>
+
+    <textarea id="address" placeholder="Home address" rows="3" cols="50" min="250" max="250" required></textarea><br><br>
+
     <label for="gender">Male</label>
     <input type="radio" id="gender" name="sex" value="M" required>
     <input type="radio" id="gender" name="sex" value="F" required>
     <label for="gender">Female</label><br><br>
+</section>
+<section>
+    <h2 style="text-align: left;">Required</h2>
+    <label for="??"Are you fully vaccinated></label>
+    <input type="checkbox" id="??" name="Ques" value="">
+</section >
     <button>Submit</button>
 </form>
 </body>|

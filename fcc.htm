@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+<meta encoding="utf-8">
+<meta viewport="width:width-device-width=1.0">
+<meta description="survey-form">
+<meta author="Adaeze Iweadinobi">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This is my first certified project in Freecodecamp.</p>
+    <form id="survey-form">
+
+      <label id="name-label" for="name">Full Name:</label><br>
+<input type="text" id="name" placeholder="Your last name first" required> <br><br>
+
+<label id="email-label" for="email">Email address:</label><br>
+<input id="email" type="email" placeholder="Enter your email" required> <br><br>
+
+<label id="number-label" for="number">Enter your Phone Number:</label><br>
+<input type="number" id="number" min="11" max="20" placeholder="Enter phone number"> <br><br>
+
+<select id="dropdown">
+  <option>
+    <option>
+</select><br><br>
+
+     <input type="radio" name="takeon" value="Yes">
+      <input type="radio" name="takeon" value="No"><br><br>
+
+      <button type="radio" name="accept" value="yes"></button>
+      <button type="radio" name="accept" value="no">Solutions</button><br><br>
+
+      <input type="checkbox" id="verify" name="verify" value="agree">
+      <input type="checkbox" id="omit" name="omit" value="disagree"><br><br>
+
+      <textarea rows="10" cols="25">Share your experience</textarea><br><br>
+
+<button type="submit" id="submit" name="">Submit</button>
+    </form>
+  </body>
