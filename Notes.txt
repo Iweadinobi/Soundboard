@@ -68,7 +68,11 @@ I have done the very basics, latr on is for alignment and proper appropriation o
 
 
 
-
+ border-width: 30px 100px 30px 100px;
+    border-radius: 50px;
+    margin:20px 10px 50px 10px;
+    padding: 35px 30px 45px 30px;
+}
 
 
 

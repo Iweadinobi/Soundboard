@@ -1,34 +1,31 @@
+body {
+    background-color:rgba(200, 162, 200, 0.5);
+}
 #title {
     text-align:center;
-    color:dodgerblue;
+    color:black;
 }
 #description {
 font-family:cursive;
+text-align:center;
 }
 #survey-form {
     text-align:center;
+    background-color:rgb(170, 51, 126, 0.4);
 }
-#name {    font-family:sans serif;
-}
-#email {
-    border: 1px solid red;
-}
-#number {
-min-width:50%;
-max-width:100%;
-}
-#name-label {
-text-align:left;
+    #name-label {
+        text-align: left;
 }
 #email-label {
 text-align:left;
 }
 #number-label {
-    border: 1px solid red;
+    text-align:left;
 }
-#dropdown {
-    border: 1px solid red;
-}
-#submit {
-    border: 1px solid red;
+button[type="submit"] {
+    border: 1px solid grey;
+    padding: 10px 13.7%;
+    background-color:black;
+    color:blueviolet;
+    font-size: larger;
 }

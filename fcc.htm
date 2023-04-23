@@ -6,7 +6,7 @@
 <meta viewport="width:width-device-width=1.0">
 <meta description="survey-form">
 <meta author="Adaeze Iweadinobi">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="freecostyle.css">
   </head>
   <body>
     <h1 id="title">Survey Form</h1>
@@ -19,24 +19,30 @@
 <label id="email-label" for="email">Email address:</label><br>
 <input id="email" type="email" placeholder="Enter your email" required> <br><br>
 
-<label id="number-label" for="number">Enter your Phone Number:</label><br>
-<input type="number" id="number" min="11" max="20" placeholder="Enter phone number"> <br><br>
+<label id="number-label" for="number">Phone Number:</label><br>
+<input type="number" id="number" minlength="11" maxlength="20" placeholder="Enter phone number"><br><br>
 
 <select id="dropdown">
   <option>
     <option>
 </select><br><br>
 
+     <label for="takeon"></label>
      <input type="radio" name="takeon" value="Yes">
-      <input type="radio" name="takeon" value="No"><br><br>
+     <label for="takeon"></label> 
+     <input type="radio" name="takeon" value="No"><br><br>
 
+      <label for="accept"></label>
       <button type="radio" name="accept" value="yes"></button>
-      <button type="radio" name="accept" value="no">Solutions</button><br><br>
+      <label for="accept"></label>
+      <button type="radio" name="accept" value="no"></button><br><br>
 
-      <input type="checkbox" id="verify" name="verify" value="agree">
+      <input type="checkbox" id="verify" name="verify" value="agree"><br>
+      <label for="verify"></label>
       <input type="checkbox" id="omit" name="omit" value="disagree"><br><br>
+      <label for="omit"></label>
 
-      <textarea rows="10" cols="25">Share your experience</textarea><br><br>
+      <textarea rows="10" cols="50">Share your experience</textarea><br><br><br>
 
 <button type="submit" id="submit" name="">Submit</button>
     </form>
